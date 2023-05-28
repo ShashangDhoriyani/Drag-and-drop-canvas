@@ -1,0 +1,62 @@
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f5f0bb;
+  border-radius: 50px;
+}
+
+.draggable-object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100px;
+  background-color: #6877d5;
+  border: 1px solid #ccc;
+  cursor: move;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.resize-handle {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  cursor: se-resize;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.canvas-container {
+  position: relative;
+}
+
+.controls-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.log-button {
+  padding: 5px 10px;
+  background-color: bisque;
+}

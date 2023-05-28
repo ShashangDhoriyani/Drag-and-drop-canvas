@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.canvas {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.draggable-object {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  position: absolute;
+  cursor: move;
+}
